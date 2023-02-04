@@ -112,7 +112,7 @@
             {
                 error = 0;
                 Console.Write("\nIngrese la cantidad de variables: ");
-                if (int.TryParse(Console.ReadLine(), out amount) == false || amount > 6 || amount < 1)
+                if (int.TryParse(Console.ReadLine(), out amount) == false || amount < 1)
                 {
                     Console.WriteLine("\nERROR - Numero fuera de rango.\nPresione una tecla...\n");
                     Console.ReadLine();
